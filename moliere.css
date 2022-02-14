@@ -1,0 +1,60 @@
+.speech{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    color:black;
+}
+.stagedirection{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    color:black;
+    background-color: lightskyblue;
+}
+.name{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    color:black;
+}
+.stagedirection:hover{
+    background-color: gray;
+    color: white;
+}
+.ARY{
+    color:blueviolet;
+}
+.CHRY{
+    color:coral;
+}
+
+.table,
+td{
+  border: 1px solid black;
+  border-collapse: collapse;  
+  text-align: left;
+  color: red;
+  padding: 8px;
+  margin: 10px;
+}
+th{
+  border: 2px solid black;
+  text-align: center;
+  background-color: bisque;
+  padding: 5px;
+  margin: 10px;
+}
+tr:nth-child(even) {
+  background-color: lightblue;
+}  
+
+span h6:hover{
+    text-shadow: 0 0 2px black;
+    color: transparent;
+    font-size: 20px;
+    border: dotted;
+}   
+ 
+.name:hover{
+    text-shadow:2px 4px 3px rgb(rgb(29, 116, 122));
+    color: teal;
+    filter: pink(3px);
+    border: double 2px black;
+}
